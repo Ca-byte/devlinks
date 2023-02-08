@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: url('./assets/bg-mobile.jpg') no-repeat top center/cover;
+}
+body * {
+	font-family: 'Inter', sans-serif;
+	color: #ffffff;
+}
+#container {
+	height: 44.5rem;
+	width: 22.5rem;
+	border: 1px red solid;
+	margin: 3.5rem auto 0;
+}
+#profile {
+	text-align: center;
+	padding: 1.5rem;
+}
+#profile img {
+	width: 7rem;
+}
+
+#profile a {
+	display: block;
+	font-size: 1rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+	text-decoration: none;
+	padding-top: 0.5rem;
+}
+
