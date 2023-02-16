@@ -33,3 +33,34 @@ body * {
 	padding-top: 0.5rem;
 }
 
+/*links*/
+
+ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	padding: 1.5rem;
+	gap:1rem;
+}
+ul li {
+	text-align: center;
+	padding: 1rem 1.5rem;
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	transition: background 0.3s;
+}
+
+ul li:hover {
+	cursor: pointer;
+	background: rgba(255, 255, 255, 0.05);
+	border: 1.5px solid white;
+}
+
+ul li a {
+	text-decoration: none;
+	font-size: 1rem;
+	backdrop-filter: blur(0.5rem);
+	-webkit-backdrop-filter: blur(4px);
+}
+
