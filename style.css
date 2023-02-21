@@ -64,3 +64,27 @@ ul li a {
 	-webkit-backdrop-filter: blur(4px);
 }
 
+#social-link {
+	display: flex;
+	justify-content: center;
+	padding: 1.5rem;
+	font-size: 1.5rem;
+}
+
+#social-link a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
+#social-link a:hover {
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 50%;
+}
+
+footer.made-by {
+	text-align: center;
+	padding: 1.5rem;
+	font-size: 0.875;
+	color: white;
+}
