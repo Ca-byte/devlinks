@@ -3,23 +3,47 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body {
-	background: url('./assets/bg-mobile.jpg') no-repeat top center/cover;
+:root {
+	--text-color: white;
+	--bg-url: url('./assets/bg-mobile.jpg') no-repeat top center/cover;
+	--stroke-color: rgba(255, 255, 255, 0.5);
+	--surface-color: rgba(255, 255, 255, 0.1);
+	--surface-color-hover: rgba(255, 255, 255, 0.05);
+	--highlight-color-hover: rgba(255, 255, 255, 0.05);
 }
+
+.light {
+	--text-color: black;
+	--bg-url: url('./assets/bg-light-mobile.jpg') no-repeat top center/cover;
+	--stroke-color: rgba(0, 0, 0, 0.5);
+	--surface-color: rgba(0, 0, 0, 0.05);
+	--surface-color-hover: rgba(0, 0, 0, 0.02);
+	--highlight-color-hover: rgba(0, 0, 0, 0.1);
+}
+
+
+
+body {
+	background: var(--bg-url);
+}
+
 body * {
 	font-family: 'Inter', sans-serif;
-	color: #ffffff;
+	color: var(--text-color);
 }
+
 #container {
 	height: 44.5rem;
 	width: 22.5rem;
 	border: 1px red solid;
 	margin: 3.5rem auto 0;
 }
+
 #profile {
 	text-align: center;
 	padding: 1.5rem;
 }
+
 #profile img {
 	width: 7rem;
 }
@@ -34,7 +58,6 @@ body * {
 }
 
 /*links*/
-
 ul {
 	display: flex;
 	flex-direction: column;
@@ -42,19 +65,20 @@ ul {
 	padding: 1.5rem;
 	gap:1rem;
 }
+
 ul li {
 	text-align: center;
 	padding: 1rem 1.5rem;
 	border-radius: 8px;
-	background: rgba(255, 255, 255, 0.1);
-	border: 1px solid rgba(255, 255, 255, 0.5);
+	background: var(--surface-color);
+	border: 1px solid var(--stroke-color);
 	transition: background 0.3s;
 }
 
 ul li:hover {
 	cursor: pointer;
-	background: rgba(255, 255, 255, 0.05);
-	border: 1.5px solid white;
+	background: var(--surface-color-hover);
+	border: 1.5px solid var(--text-color);
 }
 
 ul li a {
@@ -76,9 +100,11 @@ ul li a {
 	align-items: center;
 	justify-content: center;
 	padding: 1rem;
+	transition: background 0.3s;
 }
+
 #social-link a:hover {
-	background: rgba(255, 255, 255, 0.05);
+	background: var(--highlight-color-hover);
 	border-radius: 50%;
 }
 
@@ -86,5 +112,5 @@ footer.made-by {
 	text-align: center;
 	padding: 1.5rem;
 	font-size: 0.875;
-	color: white;
+	color: var(--text-color);
 }
