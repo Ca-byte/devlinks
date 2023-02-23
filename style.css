@@ -35,11 +35,10 @@ body * {
 #container {
 	height: 44.5rem;
 	width: 22.5rem;
-	border: 1px red solid;
 	margin: 3.5rem auto 0;
 }
-/*profile*/
 
+/*profile*/
 #profile {
 	text-align: center;
 	padding: 1.5rem;
@@ -59,7 +58,6 @@ body * {
 }
 
 /*switch*/
-
 #switch {
 	position: relative;
 	width: 4rem;
@@ -94,7 +92,6 @@ body * {
 	border-radius: 9999px;
 	backdrop-filter: blur(0.5rem);
 	-webkit-backdrop-filter: blur(4px);
-	
 }
 
 /*links*/
@@ -128,6 +125,7 @@ ul li a {
 	-webkit-backdrop-filter: blur(4px);
 }
 
+/*social links*/
 #social-link {
 	display: flex;
 	justify-content: center;
@@ -147,7 +145,7 @@ ul li a {
 	background: var(--highlight-color-hover);
 	border-radius: 50%;
 }
-
+/*footer*/
 footer.made-by {
 	text-align: center;
 	padding: 1.5rem;
