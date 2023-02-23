@@ -36,6 +36,7 @@ body * {
 	height: 44.5rem;
 	width: 22.5rem;
 	margin: 3.5rem auto 0;
+	border: 2px groove silver;
 }
 
 /*profile*/
