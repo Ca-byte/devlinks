@@ -10,10 +10,18 @@
 <br>
 
 <p align="center">
-	<img alt="" src="./assets/ezgif.com-crop.gif" width="700px">
+	 <img alt="" src="./assets/dev-links-dark-mode.png" width="350px">
+    <img alt="" src="./assets/dev-links-light-mode.png" width="370px">
 </p>
 
+<br>
+
+
+Take a peek: https://ca-byte.github.io/devlinks/
+
 ---
+<br>
+
 ## 🚀 Technologies ##
 
 This project was developed using the following technologies:
@@ -45,7 +53,7 @@ $ cd dev-links
 
 The project idea is basically to introduce the basics of the web tools as HTML, CSS, Javascript creating a profile with project and social links in light and dark mode.
 
-This is a project is available on **[Dev Links](https://app.rocketseat.com.br/devlinks/)**, run by **[@Rocketseat](https://github.com/Rocketseat)**.
+This is a project is available on **[Dev Links](https://app.rocketseat.com.br/devlinks/)**, run by **[@Rocketseat](https://github.com/Rocketseat)**. Give pi
 
 <br>
 
