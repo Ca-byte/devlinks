@@ -33,8 +33,8 @@ body * {
 }
 
 #container {
-	height: 44.5rem;
-	width: 22.5rem;
+	height: 100%;
+	width: 36.75rem;
 	margin: 3.5rem auto 0;
 	border: 2px groove silver;
 }
