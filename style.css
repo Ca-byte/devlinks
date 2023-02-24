@@ -25,6 +25,7 @@
 
 body {
 	background: var(--bg-url);
+	height: 100vh;
 }
 
 body * {
@@ -152,4 +153,13 @@ footer.made-by {
 	padding: 1.5rem;
 	font-size: 0.875;
 	color: var(--text-color);
+}
+
+@media (min-width: 650px) {
+	:root {
+		--bg-url: url('./assets/bg-desktop.jpg') no-repeat top center/cover;
+	}
+	.light{
+		--bg-url: url('./assets/bg-desktop-light.jpg') no-repeat top center/cover;
+	}
 }
