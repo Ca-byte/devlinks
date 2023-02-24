@@ -34,7 +34,7 @@ body * {
 
 #container {
 	height: 100%;
-	width: 36.75rem;
+	max-width: 36.75rem;
 	margin: 3.5rem auto 0;
 	border: 2px groove silver;
 }
