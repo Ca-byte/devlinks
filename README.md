@@ -3,9 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#keyboard-how-to-run-the-project">How to run the project </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 <br>
 
@@ -16,13 +17,22 @@
 
 <br>
 
-
 Take a peek: https://ca-byte.github.io/devlinks/
 
----
 <br>
 
-## 🚀 Technologies ##
+---
+
+## :memo: Project 
+
+The project idea is basically to introduce the basics of the web tools as HTML, CSS, Javascript creating a profile with project and social links in light and dark mode.
+
+This is a project is available on **[Dev Links](https://app.rocketseat.com.br/devlinks/)**, run by **[@Rocketseat](https://github.com/Rocketseat)**. Give pi
+
+<br>
+
+
+## :rocket: Technologies ##
 
 This project was developed using the following technologies:
 
@@ -33,7 +43,7 @@ This project was developed using the following technologies:
 <br>
 
 ---
-## ⌨ How to run the project ##
+## :keyboard: How to run the project ##
 
 ```bash
 # Clone this project
@@ -45,21 +55,10 @@ $ cd dev-links
 # Opening your live server you can drag your index.html and drop it in your browser or keyboard shortcut[Alt + l Alt + O].
 
 ```
-<br>
 
 ---
 
-## 💻 Project
-
-The project idea is basically to introduce the basics of the web tools as HTML, CSS, Javascript creating a profile with project and social links in light and dark mode.
-
-This is a project is available on **[Dev Links](https://app.rocketseat.com.br/devlinks/)**, run by **[@Rocketseat](https://github.com/Rocketseat)**. Give pi
-
-<br>
-
----
-
-## 🔖 Layout ##
+## :art: Layout ##
 
 - [Dev Links](https://www.figma.com/file/HXygS0vgB1qWI4P5wH9FIQ/DevLinks-(Community)?node-id=1%3A113&t=eGcKYLMaVl1uwVA4-0)
 
